@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first styled page</title>
+  <link rel="stylesheet" href="first.css">
+<script type="text/javascript">
+function overlay() {
+	el = document.getElementById("overlay");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+</script>
+
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+<a href='#' onclick='overlay()'>Click here to show the overlay</a>
+<div id="overlay" onclick='overlay()'>
+<a href="" class="cross-icon" title="">
+<img src="cross.png"  alt="[Gallery Photo]" class="cross-icon" onclick='overlay()' />
+</a>
+	<div>
+	  <p>My Overlayed content</p>			
+	</div>
+</div>
+</body>
+</html>
