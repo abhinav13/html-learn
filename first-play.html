@@ -1,31 +1,14 @@
 <head prefix="og: http://ogp.me/ns#
 			fb: http://ogp.me/ns/fb#
-			product: http://ogp.me/ns/product#" data-vn-meta=""><!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<!-- ngIf: product -->
-<title class="ng-binding">Home Decor</title>
-<meta name="keywords" content="TODO">
-<meta name="description" content="">
-<meta name="robots" content="">
-<style class="ng-scope" type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
-        <link href="http://res.cloudinary.com/dyx4yhvoq/image/upload/v1444678642/1/uhgytpmc59rlhxpapnux.jpg" class="ng-scope" rel="icon" type="image/png" data-ng-href="http://res.cloudinary.com/dyx4yhvoq/image/upload/v1444678642/1/uhgytpmc59rlhxpapnux.jpg">
-        <meta class="ng-scope" charset="utf-8">
-        <meta class="ng-scope" http-equiv="x-ua-compatible" content="ie=edge">
-        <meta class="ng-scope" name="viewport" content="width=device-width, initial-scale=1">
-		<link class="ng-scope" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link class="ng-scope" rel="stylesheet" href="/styles/vendor-1179a5497d.css">
-        <link class="ng-scope" rel="stylesheet" href="/styles/main.css">
-        <link class="ng-scope" rel="stylesheet" ng-href="">
-        <base class="ng-scope" href="/">
+			product: http://ogp.me/ns/product#" data-vn-meta-tags="" data-title="storeInfo.metaTagTitle" data-description="storeInfo.metaTagDescription" data-keywords="seo.metaTagKeywords" data-robots="seo.enableRobotsMetatags" data-to-append="seo.globallyAppendedMetatags" data-social-twitter-card-type="social.twitterCardType" data-social-twitter-site="social.twitterName" data-social-twitter-creator="social.twitterName" data-social-twitter-title="social.pageTitle" data-social-twitter-image="social.imageUrl" data-social-page-type="social.pageType" data-social-page-title="social.pageTitle" data-social-page-description="social.pageDescription" data-social-page-url="social.pageUrl" data-social-image-url="social.imageUrl" data-social-product-price="social.productPrice" data-social-product-currency="social.productCurrency"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//d1z0iswg2h6aen.cloudfront.net/7/1/styles/vendor-1179a5497d.css">
+        <link rel="stylesheet" href="//d1yu7mcud990o6.cloudfront.net/1/7/1/styles/main.css">
+        <base href="/">
     <script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
     <body class="vn-page-category" data-vn-page-name="">
         <!--[if lt IE 9]>
@@ -133,26 +116,9 @@
 
 	<div class="vn-product-grid__products row">
 		<div class="vn-product-grid__no-products vn-product-grid__no-products--filter col-xs-12 text-center ng-binding ng-hide" data-ng-show="products.length == 0 &amp;&amp; angular.isDefined(submittedFilterText) &amp;&amp; submittedFilterText != ''">There are no products matching ""</div>
-		<div class="vn-product-grid__no-products col-xs-12 text-center ng-hide" data-ng-show="products.length == 0 &amp;&amp; (!angular.isDefined(submittedFilterText) || submittedFilterText == '')">There are no products in this category</div>
+		<div class="vn-product-grid__no-products col-xs-12 text-center" data-ng-show="products.length == 0 &amp;&amp; (!angular.isDefined(submittedFilterText) || submittedFilterText == '')">There are no products in this category</div>
 		<!-- ngIf: displayType==='grid' --><div class="ng-scope" data-ng-if="displayType==='grid'">
-            <!-- ngRepeat: product in products track by product.id --><div class="ng-scope ng-isolate-scope" data-vn-product-tile="" product="product" ng-repeat-start="product in products track by product.id" data-show-description="showProductDescription" data-show-add-to-cart="showAddToCart" on-add-to-cart-clicked="addToCartHandler({product: product})" data-column-size="{desktop: 12/numberOfColumns.desktop, tablet: 12/numberOfColumns.tablet, phone: 12/numberOfColumns.phone}"><div class="vn-product-tile col-xs-12 col-sm-3 col-md-3 col-lg-3">
-	<a href="/p/bamboo-chair-modern" ui-sref="product({code: product.seo.friendlyName})" class="vn-product-tile__img">
-		<img src="http://res.cloudinary.com/dyx4yhvoq/image/upload/v1442846807/1/xgcnw72rwkh2jqytuegn.jpg" ng-src="http://res.cloudinary.com/dyx4yhvoq/image/upload/v1442846807/1/xgcnw72rwkh2jqytuegn.jpg" class="img-responsive" alt="">
-	</a>
-	<a href="/p/bamboo-chair-modern" ui-sref="product({code: product.seo.friendlyName})" class="vn-product-tile__title ng-binding" itemprop="name">Bamboo Chair Modern</a>
-	<!-- ngIf: showDescription && product.descriptions.short -->
-	<div class="vn-product-tile__price-wrap" itemscope="" itemtype="http://schema.org/Offer">
-		<!-- ngIf: isOnSale(product.msrp, product.price) -->
-		<div class="vn-product-tile__price product__price--sale ng-binding" itemprop="price">$70.99</div>
-        <!-- ngIf: showAddToCart --><div ng-if="showAddToCart" class="product-info__section product-info__add-to-cart ng-scope">
-            <button data-ng-click="onAddToCartClicked()" class="btn btn-lg btn-primary ng-scope" data-translate="product.addToCart">Add to Cart</button>
-        </div><!-- end ngIf: showAddToCart -->
-	</div>
-</div>
-</div>
-            <!-- ngIf: ($index + 1) % numberOfColumns.desktop == 0 -->
-            <!-- ngIf: ($index + 1) % numberOfColumns.tablet == 0 -->
-            <!-- ngIf: ($index + 1) % numberOfColumns.phone == 0 --><div class="clearfix visible-xs ng-scope" data-ng-if="($index + 1) % numberOfColumns.phone == 0" ng-repeat-end=""></div><!-- end ngIf: ($index + 1) % numberOfColumns.phone == 0 --><!-- end ngRepeat: product in products track by product.id -->
+            <!-- ngRepeat: product in products track by product.id -->
 		</div><!-- end ngIf: displayType==='grid' -->
         <!-- ngIf: displayType==='list' -->
 	</div>
@@ -171,15 +137,15 @@
 </div></div></div></div></div>
 
         <!-- Footer -->
-         <!-- ngInclude: 'views/partials/footer.html' --><div class="ng-scope" id="footer" ng-include=" 'views/partials/footer.html' "><!-- ngIf: !checkoutPage --><footer class="footer ng-scope" data-ng-if="!checkoutPage" theme-section="" section-id="footer"><div class="container"><div class="footer__top"><div class="row"><div class="col-sm-6 col-md-5"><h3 class="footer__heading">Links</h3><div class="row"><div class="col-xs-6"><ul class="link-list"><li class="link-list__item"><a href="#" class="link-list__link btn-link">About Us</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Contact</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Terms &amp; Conditions</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Privacy Policy</a></li></ul></div><div class="col-xs-6"><ul class="link-list"><li class="link-list__item"><a href="#" class="link-list__link btn-link">Shipping Information</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Retruns &amp; Exchanges</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">FAQ</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">My Account</a></li></ul></div></div></div><div class="col-sm-6 col-md-3"><h3 class="footer__heading">Connect with us</h3><div class="social"><!-- ngIf: $root.storeInfo.socialNetworks.facebook --><a href="www.facebook.com" data-ng-if="$root.storeInfo.socialNetworks.facebook" data-ng-href="www.facebook.com" target="_blank" class="social__link ng-scope"><i class="fa fa-facebook-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.facebook --> <!-- ngIf: $root.storeInfo.socialNetworks.twitter --><a href="www.twitter.com" data-ng-if="$root.storeInfo.socialNetworks.twitter" data-ng-href="www.twitter.com" target="_blank" class="social__link ng-scope"><i class="fa fa-twitter-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.twitter --> <!-- ngIf: $root.storeInfo.socialNetworks.pinterest --><a href="www.pinterest.com" data-ng-if="$root.storeInfo.socialNetworks.pinterest" data-ng-href="www.pinterest.com" target="_blank" class="social__link ng-scope"><i class="fa fa-pinterest-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.pinterest --> <!-- ngIf: $root.storeInfo.socialNetworks.youtube --> <!-- ngIf: $root.storeInfo.socialNetworks.instagram --> <!-- ngIf: $root.storeInfo.socialNetworks.google --><a href="www.google.com" data-ng-if="$root.storeInfo.socialNetworks.google" data-ng-href="www.google.com" target="_blank" class="social__link ng-scope"><i class="fa fa-google-plus-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.google --></div></div><div class="col-sm-12 col-md-4"><h3 class="footer__heading">Sign up for our newsletter!</h3><div class="elist"><form class="ng-pristine ng-valid" role="" name=""><div class="input-group"><input class="form-control" placeholder="email@example.com" type="text"> <span class="input-group-btn"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></span></div></form></div><!--/.elist--></div></div><!--/.footer__top--></div><div class="footer__bottom"><div class="row"><div class="col-sm-6"><div class="copyright ng-isolate-scope" editable-section="" section-id="copyright" vn-menu-editor=""><span class="ng-binding ng-scope">Copyright Really Neat Store 2015</span> <!-- ngIf: settings.builtWith --><span class="ng-scope" data-ng-if="settings.builtWith">Built With <a href="http://www.volusion.com" class="btn-link">Volusion</a></span><!-- end ngIf: settings.builtWith --></div></div><div class="col-sm-6"><div class="icons"><div class="cc ng-isolate-scope" editable-section="" section-id="creditCards" vn-menu-editor=""><!-- ngIf: settings.visa --><i data-ng-if="settings.visa" class="fa fa-cc-visa ng-scope"></i><!-- end ngIf: settings.visa --> <!-- ngIf: settings.mastercard --><i data-ng-if="settings.mastercard" class="fa fa-cc-mastercard ng-scope"></i><!-- end ngIf: settings.mastercard --> <!-- ngIf: settings.discover --><i data-ng-if="settings.discover" class="fa fa-cc-discover ng-scope"></i><!-- end ngIf: settings.discover --> <!-- ngIf: settings.americanExpress --><i data-ng-if="settings.americanExpress" class="fa fa-cc-amex ng-scope"></i><!-- end ngIf: settings.americanExpress --> <!-- ngIf: settings.paypal --><i data-ng-if="settings.paypal" class="fa fa-cc-paypal ng-scope"></i><!-- end ngIf: settings.paypal --></div></div></div></div></div></div></footer><!-- end ngIf: !checkoutPage --><!--Fixes for demo--><!-- ngIf: checkoutPage --></div>
+         <!-- ngInclude: 'views/partials/footer.html' --><div class="ng-scope" id="footer" ng-include=" 'views/partials/footer.html' "><!-- ngIf: !checkoutPage --><footer class="footer ng-scope" data-ng-if="!checkoutPage" theme-section="" section-id="footer"><div class="container"><div class="footer__top"><div class="row"><div class="col-sm-6 col-md-5"><h3 class="footer__heading">Links</h3><div class="row"><div class="col-xs-6"><ul class="link-list"><li class="link-list__item"><a href="#" class="link-list__link btn-link">About Us</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Contact</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Terms &amp; Conditions</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Privacy Policy</a></li></ul></div><div class="col-xs-6"><ul class="link-list"><li class="link-list__item"><a href="#" class="link-list__link btn-link">Shipping Information</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">Retruns &amp; Exchanges</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">FAQ</a></li><li class="link-list__item"><a href="#" class="link-list__link btn-link">My Account</a></li></ul></div></div></div><div class="col-sm-6 col-md-3"><h3 class="footer__heading">Connect with us</h3><div class="social"><!-- ngIf: $root.storeInfo.socialNetworks.facebook --><a href="www.facebook.com" data-ng-if="$root.storeInfo.socialNetworks.facebook" data-ng-href="www.facebook.com" target="_blank" class="social__link ng-scope"><i class="fa fa-facebook-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.facebook --> <!-- ngIf: $root.storeInfo.socialNetworks.twitter --><a href="www.twitter.com" data-ng-if="$root.storeInfo.socialNetworks.twitter" data-ng-href="www.twitter.com" target="_blank" class="social__link ng-scope"><i class="fa fa-twitter-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.twitter --> <!-- ngIf: $root.storeInfo.socialNetworks.pinterest --><a href="www.pinterest.com" data-ng-if="$root.storeInfo.socialNetworks.pinterest" data-ng-href="www.pinterest.com" target="_blank" class="social__link ng-scope"><i class="fa fa-pinterest-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.pinterest --> <!-- ngIf: $root.storeInfo.socialNetworks.youtube --> <!-- ngIf: $root.storeInfo.socialNetworks.instagram --> <!-- ngIf: $root.storeInfo.socialNetworks.google --><a href="www.google.com" data-ng-if="$root.storeInfo.socialNetworks.google" data-ng-href="www.google.com" target="_blank" class="social__link ng-scope"><i class="fa fa-google-plus-square"></i></a><!-- end ngIf: $root.storeInfo.socialNetworks.google --></div></div><div class="col-sm-12 col-md-4"><h3 class="footer__heading">Sign up for our newsletter!</h3><div class="elist"><form class="ng-pristine ng-valid" role="" name=""><div class="input-group"><input class="form-control" placeholder="email@example.com" type="text"> <span class="input-group-btn"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></span></div></form></div><!--/.elist--></div></div><!--/.footer__top--></div><div class="footer__bottom"><div class="row"><div class="col-sm-6"><div class="copyright ng-isolate-scope" editable-section="" section-id="copyright" vn-menu-editor=""><span class="ng-binding ng-scope">Copyright 2015</span> <!-- ngIf: settings.builtWith --><span class="ng-scope" data-ng-if="settings.builtWith">Built With <a href="http://www.volusion.com" class="btn-link">Volusion</a></span><!-- end ngIf: settings.builtWith --></div></div><div class="col-sm-6"><div class="icons"><div class="cc ng-isolate-scope" editable-section="" section-id="creditCards" vn-menu-editor=""><!-- ngIf: settings.visa --><i data-ng-if="settings.visa" class="fa fa-cc-visa ng-scope"></i><!-- end ngIf: settings.visa --> <!-- ngIf: settings.mastercard --><i data-ng-if="settings.mastercard" class="fa fa-cc-mastercard ng-scope"></i><!-- end ngIf: settings.mastercard --> <!-- ngIf: settings.discover --><i data-ng-if="settings.discover" class="fa fa-cc-discover ng-scope"></i><!-- end ngIf: settings.discover --> <!-- ngIf: settings.americanExpress --><i data-ng-if="settings.americanExpress" class="fa fa-cc-amex ng-scope"></i><!-- end ngIf: settings.americanExpress --> <!-- ngIf: settings.paypal --><i data-ng-if="settings.paypal" class="fa fa-cc-paypal ng-scope"></i><!-- end ngIf: settings.paypal --></div></div></div></div></div></div></footer><!-- end ngIf: !checkoutPage --><!--Fixes for demo--><!-- ngIf: checkoutPage --></div>
 
         <style id="compiled-css"></style>
 
-        <script src="scripts/vendor-6ba0e8928c.js"></script>
+        <script src="//d1z0iswg2h6aen.cloudfront.net/7/1/scripts/vendor-74f81371f7.js"></script>
 
         <script src="/configuration.js"></script>
 
-        <script src="scripts/scripts-b622695634.js"></script>
+        <script src="//d1z0iswg2h6aen.cloudfront.net/7/1/scripts/scripts-09418fec33.js"></script>
 
     
 
